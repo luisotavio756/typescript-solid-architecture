@@ -18,8 +18,11 @@
     "prettier"
   ],
   "rules": {
-    "prettier": "error",
     "prettier/prettier": "error",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": [
+      "error"
+    ],
     "import/extensions": [
       "error",
       "ignorePackages",
